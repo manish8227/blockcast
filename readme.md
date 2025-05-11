@@ -30,7 +30,7 @@ Hardware ID is a unique public identifier for your device. Challenge key is a Ba
 
 **Registering your docker instance on the web portal:**
 
-Go to the [web portal]([https://app.blockcast.network/](https://app.blockcast.network?referral-code=pITWpW)) and log in. Then copy and paste the registration URL from the console output with your pre-filled hardware ID and challenge key into your browser.
+Go to the [web portal](https://app.blockcast.network?referral-code=pITWpW) and log in. Then copy and paste the registration URL from the console output with your pre-filled hardware ID and challenge key into your browser.
 
 OR
 
