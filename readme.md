@@ -17,11 +17,15 @@ Registration URL: https://app.blockcast.network/register?hwid={hwid}&challenge-k
 
 
 
+
+
 **Note:**
 
 Hardware ID is a unique public identifier for your device. Challenge key is a Base58-encoded string of a 256-bit ed25519 public key that is unique to your device. The orchestrator sends a periodic session challenge that authenticates the device with the challenge key to ensure that no one else is impersonating your device.
 
 *NOTE: Backup your private key and keep it safe (in ~$HOME/certs/gateway.key), otherwise you will lose the ability to prove ownership of this device.*
+
+
 
 
 **Registering your docker instance on the web portal:**
@@ -32,6 +36,8 @@ OR
 
 Go to Manage Nodes and press “Register Node” button and manually enter your keys in the portal registration flow.
 _You will need to enable location from your browser to continue._
+
+
 
 
 **To confirm if your instance is online and healthy:**
