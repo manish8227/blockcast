@@ -8,21 +8,25 @@ OR
 ```
 
 **At final step it would generate an output that looks like:**
+
 Hardware ID: bkc-hw-xxxxxxxxxxxxxxxxxxxx
+
 Challenge Key: bkc-ch-xxxxxxxxxxxxxxxxxxxx
+
 Registration URL: https://app.blockcast.network/register?hwid={hwid}&challenge-key={challenge-key}
 
-Note:
-Hardware ID is a unique public identifier for your device.
-Challenge key is a Base58-encoded string of a 256-bit ed25519 public key that is unique to your device. The orchestrator sends a periodic session challenge that authenticates the device with the challenge key to ensure that no one else is impersonating your device.
+
+
+**Note:**
+
+Hardware ID is a unique public identifier for your device. Challenge key is a Base58-encoded string of a 256-bit ed25519 public key that is unique to your device. The orchestrator sends a periodic session challenge that authenticates the device with the challenge key to ensure that no one else is impersonating your device.
 
 *NOTE: Backup your private key and keep it safe (in ~$HOME/certs/gateway.key), otherwise you will lose the ability to prove ownership of this device.*
 
 
 **Registering your docker instance on the web portal:**
 
-Go to the [web portal](https://app.blockcast.network/) and log in
-Copy and paste the registration URL from the console output with your pre-filled hardware ID and challenge key into your browser.
+Go to the [web portal](https://app.blockcast.network/) and log in. Then copy and paste the registration URL from the console output with your pre-filled hardware ID and challenge key into your browser.
 
 OR
 
