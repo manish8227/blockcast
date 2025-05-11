@@ -10,7 +10,7 @@ OR
 
 
 
-**At final step it would generate an output that looks like:**
+**At final step it would generate an output that looks like:** **(Keep this for future reference.)**
 
 Hardware ID: bkc-hw-xxxxxxxxxxxxxxxxxxxx
 
@@ -33,7 +33,9 @@ Hardware ID is a unique public identifier for your device. Challenge key is a Ba
 
 ##  **Registering your docker instance on the BLOCKCAST web portal:**
 
-Go to the [web portal](https://app.blockcast.network?referral-code=pITWpW) and log in. Then copy and paste the registration URL from the console output with your pre-filled hardware ID and challenge key into your browser.
+Go to the [web portal](https://app.blockcast.network?referral-code=pITWpW) and log in. 
+
+**Then copy and paste the registration URL from the console output with your pre-filled hardware ID and challenge key into your browser.**
 
 OR
 
