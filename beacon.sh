@@ -25,6 +25,9 @@ sleep 60
 echo
 screen -d genkey
 
+echo
+cd ~/.blockcast/certs && nano gw_challenge.key
+
 
 
 
